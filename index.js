@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 
 app.get('/:name', function (req, res) {
   console.log(req);
-  res.send('Hola desde' + req.params.name);
+  res.send('Hola desde ' + req.params.name);
 });
 
 app.listen(PORT);
